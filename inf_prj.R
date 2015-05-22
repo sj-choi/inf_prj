@@ -1,12 +1,12 @@
 # Test
-rexp_n40_rate0_2 = rexp(n = 40, rate = 0.2)
-hist(rexp_n40_rate0_2)
-var(rexp_n40_rate0_2)
+#rexp_n40_rate0_2 = rexp(n = 40, rate = 0.2)
+#hist(rexp_n40_rate0_2)
+#var(rexp_n40_rate0_2)
 
-set.seed(123) ## I set this in order to make my simulation results reproducible. 
-n <- 1000
-means <- cumsum(rnorm(n))/(1:n)
-hist(means)
+#set.seed(123) ## I set this in order to make my simulation results reproducible. 
+#n <- 1000
+#means <- cumsum(rnorm(n))/(1:n)
+#hist(means)
 
 
 
